@@ -1,0 +1,51 @@
+/*Button from all pages*/
+.button-contact{
+    background: white;
+    color: #0C579A;
+    padding: 12px 28px;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 6px; 
+}
+.button-facebook{
+    color: #F7F8FC;
+    background: #2C56A8;
+    padding: 11px 23.5px;
+    font-size: 15.5px;
+    border-radius: 6px; 
+
+}
+.button-see-project{
+	color: #F7F8FC;
+    background: #EF690A;
+    padding: 12px 28px;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 6px; 
+    text-transform: uppercase;
+
+}
+.button-project{
+	color: #F7F8FC;
+    background: #2C56A8;
+    padding: 11px 32px;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 6px; 
+
+}
+.button-tech-cafe{
+	color: #969696;
+    background: #FFF;
+    padding: 10px 23.5px;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 6px; 
+}
+.button-work-together{
+	color: #FFF;
+	background: #15A7E2;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 20px; 
+}
