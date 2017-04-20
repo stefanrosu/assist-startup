@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.entrepreneurs-content{
+
+	color: #494949;
+	margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 60%;
+    font-size: 18px;
+}
+
+.header-overlay{
+	background-color: rgba(21, 167, 226, 0.8);
+	height: 100%;
+}
+.footer-down{
+    width: 100%;
+    float: left;
+    padding-top: 32px;
+}
+/*Entrepreneur page*/
+.entrepreneurs-details{
+	
+    margin: 0 auto;
+    border-top: 1px solid #DDD;
+    padding-top: 50px;
+    width: 90%;
+}
+#entre-text{
+	margin-left: 195px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    color: #333333;
+    width: 66%;
+}
+#entre-info{
+    text-align: center;
+    color: #666666;
+    padding-bottom: 42px;
+}
+/*hack page*/
+.hackathons{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+.hackathons-category{
+    width: 100%;
+    padding-top: 20px;
+    display: inline-block;
+}
+.hack-image-right{
+    float: left;
+    width: 52.5%;
+}
+.hack-right{
+    width: 40%;
+    float: right;
+    
+}
+.hack-left{
+    width: 40%;
+    float: left;
+    padding-left: 45px;
+}
+.hack-image-left{
+    width: 52.2%;
+    float: right;
+}
+
+/*Home page*/
+.home-container{
+    width: 100%;
+    min-height: 1000px;
+    position: relative;
+}
+.home-research{
+    width: 100%;
+    background: #DF9B1E;
+    height: auto;
+    position: absolute
+}
+.home-img-left{
+    width: 50%;
+    float: left;
+}
+.home-logo-right{
+    width: 50%;
+    float: right;
+}

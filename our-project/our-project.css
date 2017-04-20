@@ -1,0 +1,35 @@
+/*Project page*/
+.our-project{
+    width: 90%;
+    height: 100%;
+    min-height: 370px;
+    border-bottom: 1px solid #DDD;
+    padding-top: 100px;
+    margin: auto;
+}
+.image-project-right{
+	width: 50%;
+	float: right;
+}
+.image-project-left{
+	width: 50%;
+	float: left;
+}
+.project-details{
+	width: 50%;
+	float: left;
+}
+#image-project-edit{
+	border-radius: 3px;
+}
+#prj-title{
+	font-size: 37px;
+    font-weight: 800;
+    color: #363636;
+    padding-top: 26px;
+}
+#prj-text{
+	font-size: 20px;
+    width: 90%;
+    color: #5A5A5A;
+}

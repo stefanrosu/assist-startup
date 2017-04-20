@@ -1,0 +1,17 @@
+#text-event{
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+    top: 98px;
+    padding: 0px 76px;
+    text-align: center;
+    font-size: 32px;
+
+}
+.thumbnail-event{
+	position: relative;
+	width: 23%;
+}
+#event-image{
+	border-radius: 6px;
+}

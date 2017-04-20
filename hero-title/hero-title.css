@@ -1,0 +1,21 @@
+#hero-title{
+    color: #FFF;
+    margin-top: 122px;
+    font-size: 61px;
+    font-weight: 700;
+    height: 17px;
+}
+#hero-home{
+	text-transform: uppercase;
+	color: #A8CCEC;
+	font-size: 19px;
+	font-weight: 600;
+	margin-top: 140px;
+}
+#hero-title-upp{
+	color: #FFF;
+    margin-top: 0px;
+    font-size: 61px;
+    font-weight: 700;
+    height: 17px;
+}

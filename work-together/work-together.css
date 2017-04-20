@@ -1,0 +1,17 @@
+.work-together{
+	background-color: #0965A4;
+}
+#work-title{
+	color: #FFF;
+	text-align: center;
+	font-size: 34px;
+    font-weight: 500;
+    height: 14px;
+    padding-top: 35px;
+}
+#work-subtitle{
+	color: #9FB4CF;
+	text-align: center;
+	font-size: 20px;
+	height: 7px;
+}

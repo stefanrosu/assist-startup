@@ -1,0 +1,11 @@
+#event-image{
+	border-radius: 5px;
+}
+#project-title{
+	font-weight: 700;
+}
+#project-text{
+	font-size: 15px;
+    width: 350px;
+    color: #5A5A5A;
+}
