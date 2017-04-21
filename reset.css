@@ -37,7 +37,7 @@ body {
     width: 90%;
 }
 #entre-text{
-	margin-left: 195px;
+	margin: 0 auto;
     text-align: center;
     font-weight: 600;
     font-size: 21px;
@@ -99,4 +99,29 @@ body {
 .home-logo-right{
     width: 50%;
     float: right;
+}
+/*Tech page*/
+.tech-container{
+    background-color: #EEE;
+    padding-top: 50px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.thumbnail-tech{
+    width: 93%;
+    margin: 0 auto;
+    padding-top: 50px;
+    min-height: 600px;
+    border-bottom: 1px solid #DDD;
+    padding-left: 35px;
+}
+.event-on-fb{
+    text-align: center;
+    padding-top: 33px;
+    width: 100%;
+}
+#txt-on-fb{
+    font-size: 18px;
+    color: #6E6E6E;
+    padding-right: 20px;
 }
