@@ -3,7 +3,7 @@
 <head>
 	<title>Tech</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="../font/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../normalize.css">
 	<link rel="stylesheet" type="text/css" href="../reset.css">
 	<link rel="stylesheet" type="text/css" href="../button/button.css">
@@ -32,102 +32,143 @@
 
 <body>
 	<div class="container">
-		<header>
+		<header id="home">
 			<div class="landing">
 				<div class="header-overlay">
 					<div class="landing-top">
-						<img id="logo" src="http://placehold.it/150x65">
-						<button class="button-work-together">Let's work together</button>	
+						<div class="left-menu-buttons">
+							<img id="logo" src="http://placehold.it/150x65">
+						</div>					
+						<div id="show-menu" class="right-menu-buttons">
+							<i class="fa fa-bars" aria-hidden="true"></i>					
+							<button class="button-work-together">Let's work together</button>
+						</div>	
 					</div>
 					<div class="landing-text">
 						<p id="hero-title" >Tech CAFE</p>
-						<p id="hero-subtitle">Meeting point for people that are internet and technology passioned. Weekly IT&C talks at Bizz Cafe</p>
+						<p id="hero-subtitle">Meeting point for people that are internet and technology passioned. Weekly IT&C talk at Bizz Cafe.</p>
 					</div>
-				</div>
+				</div>		
 			</div>
 		</header>
-	<div class="tech-container">
-		<div class="thumbnail-main-tech">
-			<div class="left-main-tech">
-				<p id="title-tech">Smart houses and internet of things</p>
-				<p id="text-tech">21 March 11 AM &nbsp;- &nbsp;<a href="http://bizzcafe.ro/"> Bizz cafe</a></p>
+		<div id="menu" class="menu-container hidden">
+			<div class="menu-overlay">
+				
+			</div>				
+			<div class="side-menu">
+				<div class="menu-header">
+					<i id="hide-menu" class="fa fa-bars" aria-hidden="true"></i>
+					<span id="title-menu">Menu</span>
+					<button class="button-work-together">Let's work together</button>					
+				</div>
+				<ul class="menu">
+					<li class="menu-item"><a href="home.html">Home</a>
+					</li>
+					<li class="menu-item"><a href="hack.html">Hackathons</a>
+					</li>
+					<li class="menu-item active">Tech CAFE
+					</li>
+					<li class="menu-item"><a href="entrepreneurs.html">For entrepreneurs</a>
+					</li>
+					<li class="menu-item"><a href="projects.html">Our projects</a>
+					</li>
+					<li class="menu-item"><a href="#contacts">Contacts</a>
+					</li>
+				</ul>
+				<ul class="menu-social">
+					<li class="menu-item grayed"><a href="https://www.facebook.com/">Facebook</a></li>
+					<li class="menu-item grayed"><a href="https://www.instagram.com/?hl=ro">Instagram</a></li>
+				</ul>
 			</div>
-			<div class="right-main-tech">
-				<img id="logo-tech" src="http://placehold.it/770x350">
+		</div>
+		<div class="tech-container">
+			<div class="thumbnail-main-tech">
+				<div class="left-main-tech">
+					<p id="title-tech">Smart houses and internet of things</p>
+					<p id="text-tech">21 March 11 AM &nbsp;- &nbsp;<a href="http://bizzcafe.ro/"> Bizz cafe</a></p>
+				</div>
+				<div class="right-main-tech">
+					<img id="logo-tech" src="http://placehold.it/770x350">
+				</div>
 			</div>
 		</div>
+		<div class="thumbnail-tech">
+			<div class="event-tech">
+				<img id="img-tech" src="http://placehold.it/370x170">
+				<p id="txt-tech">Ocolus Rift, Virtual Reality and the new game experiences.</p>
+			</div>
+			<div class="event-tech">
+				<img id="img-tech" src="http://placehold.it/370x170">
+				<p id="txt-tech">Electic Cars. How Tesla changed our driving views?</p>
+			</div>
+			<div class="event-tech">
+				<img id="img-tech" src="http://placehold.it/370x170">
+				<p id="txt-tech">Hololens. Star Wars technology from Microsoft.</p>
+			</div>
+			<div class="event-tech">
+				<img id="img-tech" src="http://placehold.it/370x170">
+				<p id="txt-tech">Social Media and internet social interaction.</p>
+			</div>
+			<div class="event-tech">
+				<img id="img-tech" src="http://placehold.it/370x170">
+				<p id="txt-tech">Responsive design.</p>
+			</div>
+			<div class="event-tech">
+				<img id="img-tech" src="http://placehold.it/370x170">
+				<p id="txt-tech">Latest Apple keynote.</p>
+			</div>
+		</div>
+		<div class="event-on-fb">
+			<span id="txt-on-fb">Get update about incoming events on our facebook page.</span>
+			<a href="#"><button class="button-facebook">Tech CAFE on facebook</button></a>
+		</div>
+		<footer id="contacts">
+		<div>
+			<section class="footer-links">
+				<a href="#home"><img id="footer-logo" src="http://placehold.it/150x100"></a>
+			</section>
+			<section class="footer-links">
+				<h3 id="footer-title">ASSIST START</h3>
+				<ul>
+					<li><a href="home.html">Home</a>
+					</li>
+					<li><a href="hack.html">Hackathons</a>
+					</li>
+					<li><a href="#home">Innovative talks</a>
+					</li>
+					<li><a href="entrepreneurs.html">For entrepreneurs</li>
+					<li><a href="projects.html">Our projects</li>
+				</ul>
+			</section>
+			<section class="footer-links">
+				<h3 id="footer-title">Contact</h3>
+				<ul>
+					<li><a href="https://assist-software.net/">hello@asssist.ro </li></a>
+					<li><a href="https://www.facebook.com/">Facebook</a></li>
+					<li><a href="https://www.instagram.com/?hl=ro">Instagram</a></li>
+				</ul>
+			</section>
+			<section class="footer-links">
+				<h3 id="footer-title">Share this page</h3>
+		        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+		        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+		        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+			</section>
+		</div>
+		<div class="footer-down">
+			<div class="footer-rights">
+				<div class="left-rights">
+					<p id="rights">©Assist Software 2014. Made with love in Romania</p>
+				</div>
+				<div class="right-rights">
+					<p id="rights">Privacy Policy. &nbsp; Terms of use.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 	</div>
-	<div class="thumbnail-tech">
-		<div class="event-tech">
-			<img id="img-tech" src="http://placehold.it/370x170">
-			<p id="txt-tech">Ocolus Rift, Virtual Reality and the new game experiences.</p>
-		</div>
-		<div class="event-tech">
-			<img id="img-tech" src="http://placehold.it/370x170">
-			<p id="txt-tech">Electic Cars. How Tesla changed our driving views?</p>
-		</div>
-		<div class="event-tech">
-			<img id="img-tech" src="http://placehold.it/370x170">
-			<p id="txt-tech">Hololens. Star Wars technology from Microsoft.</p>
-		</div>
-		<div class="event-tech">
-			<img id="img-tech" src="http://placehold.it/370x170">
-			<p id="txt-tech">Social Media and internet social interaction.</p>
-		</div>
-		<div class="event-tech">
-			<img id="img-tech" src="http://placehold.it/370x170">
-			<p id="txt-tech">Responsive design.</p>
-		</div>
-		<div class="event-tech">
-			<img id="img-tech" src="http://placehold.it/370x170">
-			<p id="txt-tech">Latest Apple keynote.</p>
-		</div>
-	</div>
-	</div>
-	<div class="event-on-fb">
-		<span id="txt-on-fb">Get update about incoming events on our facebook page.</span>
-		<a href="#"><button class="button-facebook">Tech CAFE on facebook</button></a>
-	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="menu-script.js"></script>
 </body>
-<footer>
-	<div>
-		<section class="footer-links">
-			<img id="footer-logo" src="http://placehold.it/150x100">
-		</section>
-		<section class="footer-links">
-			<h3 id="footer-title">ASSIST START</h3>
-			<ul>
-				<li>Home</li>
-				<li>Hackathons</li>
-				<li>innovative talks</li>
-				<li>For entrepreneurs</li>
-				<li>Our projects</li>
-			</ul>
-		</section>
-		<section class="footer-links">
-			<h3 id="footer-title">Contact</h3>
-			<ul>
-				<li><a href="https://assist-software.net/">hello@asssist.ro </li></a>
-				<li>Facebook</li>
-				<li>Instagram</li>
-			</ul>
-		</section>
-		<section class="footer-links">
-			<h3 id="footer-title">Share this page</h3>
-	        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-	        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-	        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-		</section>
-	</div>
-	<div class="footer-down">
-		<div class="footer-rights">
-			<div class="left-rights">
-				<p id="rights">©Assist Software 2014. Made with love in Romania</p>
-			</div>
-			<div class="right-rights">
-				<p id="rights">Privacy Policy. &nbsp; Terms of use.</p>
-			</div>
-		</div>
-	</div>
-</footer>
+
 </html>

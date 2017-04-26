@@ -1,31 +1,38 @@
-.thumb-project{
-	width: 93%;
+.project{
+    width: 94%;
     margin: 0 auto;
-    min-height: 580px;
-    padding-top: 50px;
+    min-height: 500px;
+
 }
 .thumbnail-project{
-	float: left;
     width: 30%;
-    padding-bottom: 30px;
     padding-right: 22px;
+    padding-bottom: 30px;
+    float: left;
     padding-left: 18px;
 }
-#event-image{
-	border-radius: 5px;
+#img-project{
+    border-radius: 5px;
 }
 #project-title{
-	font-weight: 700;
-	font-size: 17px;
+    font-weight: 700;
+    font-size: 17px;
 }
 #project-text{
-	font-size: 15px;
-    width: 350px;
+    font-size: 15px;
     color: #5A5A5A;
+    width: 350px;
 }
-.prj-buttons{
-	width: 100%;
+.buttons-group{
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
 }
-.prj-btn-center{
+
+.project-buttons {
     text-align: center;
+}
+.thumbnail-project-home{
+width:100%;
+min-height: 600px;
 }

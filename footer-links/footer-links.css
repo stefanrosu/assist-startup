@@ -18,3 +18,11 @@ ul{
 #footer-logo{
 	margin-left: 40px;
 }
+.footer-links a{
+	text-decoration: none;
+	color: #747474;
+}
+.footer-links a:hover{
+	text-decoration:underline;
+	color: grey; 
+}

@@ -19,6 +19,8 @@
 /* Innovation driven company*/
 .event-container{
     width: 100%;
+    min-height: 500px;
+    padding-top: 50px;
 }
 .event-txt{
     padding-bottom: 50px;
@@ -38,6 +40,9 @@
     font-size: 21px;
     color: #666666;
     width: 57%;
+}
+#innov-text a{
+    text-decoration: none; 
 }
 .event-img{
     width: 100%;
@@ -89,4 +94,8 @@
     font-size: 34px;
     font-weight: 700;
     height: 10px;
+}
+.overlay-txt a{
+    text-decoration: none;
+    color: #FFF;
 }
