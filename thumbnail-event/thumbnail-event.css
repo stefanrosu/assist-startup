@@ -95,7 +95,9 @@
     font-weight: 700;
     height: 10px;
 }
-.overlay-txt a{
+.right-event-img a{
     text-decoration: none;
-    color: #FFF;
+}
+.left-event-img a{
+    text-decoration: none;
 }

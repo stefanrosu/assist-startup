@@ -97,15 +97,89 @@ body {
     width: 100%;
     background: #DF9B1E;
     height: auto;
-    position: absolute
+    min-height: 580px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .home-img-left{
-    width: 50%;
+    width: 40%;
+    float: left;
+    padding-left: 70px;
+    padding-top: 50px;
+    transform: skew(-7deg) rotate(-7deg);
+}
+
+.home-logo-right{
+    width: 45%;
+    float: left;
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: center;
+}
+.img-horz{
+    width: 70%;
     float: left;
 }
-.home-logo-right{
-    width: 50%;
+.img-vert{
+    width: 24%;
     float: right;
+    padding-top: 100px;
+}
+#i-horz{
+    padding-bottom: 25px;
+    float: right;
+}
+#research-title{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#research-text{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+    padding-left: 100px; 
+    line-height: 1.5;
+}
+.home-feedback{
+    width: 100%;
+    background: #3E73C3;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    min-height: 580px;
+}
+.home-management{
+    width: 100%;
+    background: #45B376;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    min-height: 660px;
+}
+.home-img-mng{
+    width: 48%;
+    float: right;
+    margin-right: 10px;
+    transform: skew(-7deg) rotate(-7deg);
+}
+.img-hor1{
+    width: 100%;
+    padding-bottom: 22px;
+}
+#i-hor1{
+    padding-right: 18px;
+}
+.img-hor2{
+    width: 66%;
+    float: right;
+}
+.img-hor3{
+    width: 36%;
+    float: right;
+    padding-top: 20px;
 }
 #our-title{
     margin: 0 auto;

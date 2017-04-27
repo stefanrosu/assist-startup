@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Menu</title>
+	<title>menu-h</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../normalize.css">
@@ -32,14 +32,15 @@
 
 <body>
 	<div class="container">
-		<header>
+
+		<header id="home">
 			<div class="landing">
 				<div class="header-overlay">
 					<div class="landing-top">
 						<div class="left-menu-buttons">
 							<img id="logo" src="http://placehold.it/150x65">
 						</div>					
-						<div class="right-menu-buttons">
+						<div id="show-menu" class="right-menu-buttons">
 							<i class="fa fa-bars" aria-hidden="true"></i>					
 							<button class="button-work-together">Let's work together</button>
 						</div>	
@@ -52,7 +53,8 @@
 				</div>		
 			</div>
 		</header>
-		<div class="menu-container">
+
+		<div id="menu" class="menu-container hidden">
 			<div class="menu-overlay">
 				
 			</div>				
@@ -60,27 +62,219 @@
 				<!-- ul.menu>li.menu-item*6 -->
 
 				<div class="menu-header">
-							<i class="fa fa-bars" aria-hidden="true"></i>
+							<i id="hide-menu" class="fa fa-bars" aria-hidden="true"></i>
 							<span id="title-menu">Menu</span>
 							<button class="button-work-together">Let's work together</button>					
 				</div>
 
 				<ul class="menu">
-					<li class="menu-item">Home</li>
-					<li class="menu-item">Hackathons</li>
-					<li class="menu-item">Tech CAFE</li>
-					<li class="menu-item">For entrepreneurs</li>
-					<li class="menu-item">Our projects</li>
-					<li class="menu-item">Contacts</li>
+					<li class="menu-item active">Home</li>
+					<li class="menu-item">
+						<a href="hack.html">Hackathons</a>
+					</li>
+					<li class="menu-item"><a href="tech.html">Tech CAFE</a>
+					</li>
+					<li class="menu-item"><a href="entrepreneurs.html">For entrepreneurs</a>
+					</li>
+					<li class="menu-item"><a href="projects.html">Our projects</a>
+					</li>
+					<li class="menu-item">
+						<a href="#contacts">Contacts</a>
+					</li>
 				</ul>
 				<ul class="menu-social">
-					<li class="menu-item grayed">Facebook</li>
-					<li class="menu-item grayed">Instagram</li>
+					<li class="menu-item grayed"><a href="https://www.facebook.com/">Facebook</a></li>
+					<li class="menu-item grayed"><a href="https://www.instagram.com/?hl=ro">Instagram</a></li>
 				</ul>
 			</div>
 		</div>
-		
 
+
+
+
+		<div class="home-container">
+			<div class="home-research">
+				<div class="home-img-left">
+					<div class="img-horz">
+						<img src="http://placehold.it/370x190" id="i-horz">
+						<img src="http://placehold.it/370x190">
+					</div>
+					<div class="img-vert">
+						<img src="http://placehold.it/190x190">
+						
+					</div>
+				</div>
+				<div class="home-logo-right">
+					<div class="logo-bubble">
+						<img src="http://placehold.it/150x150" id="bubble">
+					</div>
+					<div class="logo-title">
+						<p id="research-tilte">1. Research & planning</p>
+					</div>
+					<div class="logo-text">
+						<p id="research-text">Metrics,objective, information, when starting a new product it's important to gather all the data and find the most suitable solution for next world-changing start-up</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="home-management">
+				<div class="home-img-mng">
+					<div class="img-hor1">
+						<img src="http://placehold.it/370x190" id="i-hor1">
+						<img src="http://placehold.it/190x190" >
+					</div>
+					<div class="img-hor2">
+						<img src="http://placehold.it/370x190">
+					</div>
+					<div class="img-hor3">
+						<img src="http://placehold.it/190x190">
+					</div>
+					
+				</div>
+				<div class="home-logo-right">
+					<div class="logo-bubble">
+						<img src="http://placehold.it/150x150" id="bubble">
+					</div>
+					<div class="logo-title">
+						<p id="research-tilte">2. Product management</p>
+					</div>
+					<div class="logo-text">
+						<p id="research-text">This is where the magic happens, the assigned team will transform a simple idea into a beautiful and working final product ready to be launched.</p>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="home-feedback">
+				<div class="home-img-left">
+					<div class="img-horz">
+						<img src="http://placehold.it/180x180" id="i-horz">
+						<img src="http://placehold.it/370x190">
+					</div>
+					<div class="img-vert">
+						<img src="http://placehold.it/180x180">
+						
+					</div>
+				</div>
+				<div class="home-logo-right">
+					<div class="logo-bubble">
+						<img src="http://placehold.it/150x150" id="bubble">
+					</div>
+					<div class="logo-title">
+						<p id="research-tilte">3. Feedback & Polishing</p>
+					</div>
+					<div class="logo-text">
+						<p id="research-text">Much bigger than a MVP, we ensure that all the strategy and objectives are met. We continue to review the code, to test and make sure that everything look and work in order to deliver an out of the box product.</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+
+		<div class="event-container">
+			<div class="event-txt">
+				<p id="innov-title">Innovation driven company</p>
+				<p id="innov-text">Here at ASSIST we always try to keep in touch with all the changes in technology and are always open to new challenges this why enganging internaly a start-up medium provides us the understanding of entrepreneurship </p>
+			</div>
+			<div class="event-img">
+				<div class="left-side">	
+					<div class="left-event-img">
+						<div class="event-overlay">
+					<a href="hack.html">
+							<p class="overlay-txt">ASSIST Lab</p>
+							<p class="overlay-txt">Hackathons</p>
+						</a>
+						</div>
+					</div>
+				</div>
+				<div class="right-side">
+					<div class="right-event-img">
+						<div class="event-overlay">
+						<a href="hack.html">
+							<p class="overlay-txt">Saturday</p>
+							<p class="overlay-txt">TECH Cafe</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="our-home">
+			<div class="event-txt">
+				<p id="our-title">Designer for entrepreneurs</p>
+				<p id="our-text">Here at ASSIST we always try to keep in touch with all the changes in technology and are always open to new challenges this why enganging internaly a start-up medium provides us the understanding of entrepreneurship </p>
+			</div>
+			<section class="skills">
+				<img class="skill-img" src="http://placehold.it/36x36">
+				<p id="title-skills">Concept</p>
+				<p id="subtitle-skills"> Strategy and model </p>
+				<p id="text-skills"> Along with the founder we're polishing the idea, the features and the business-model.</p>
+				<p id="subtitle-skills"> Roadmap </p>
+				<p id="text-skills"> We're agile and we ensure an eficient time period for every aspect of the new product.</p>
+				<p id="subtitle-skills"> Solution architecture </p>
+				<p id="text-skills"> The best solution is not just a programming language it's how to du things functional. </p>
+			</section>
+			<section class="skills">
+				<img class="skill-img" src="http://placehold.it/36x36">
+					<p id="title-skills">Design</p>
+					<p id="subtitle-skills"> Branding</p>
+					<p id="text-skills"> Building a beautiful app or service needs a proper and meaningul identity </p>
+					<p id="subtitle-skills"> Product design </p>
+					<p id="text-skills"> An idea it's just a concept, we take everytihng from scartch and transform into a product. </p>
+					<p id="subtitle-skills"> UX/UI </p>
+					<p id="text-skills"> Design is functioning and we are passionate about helping the end user in an intuitive way. </p>
+			</section>
+			<section class="skills">
+				<img class="skill-img" src="http://placehold.it/36x36">
+				<p id="title-skills">Development</p>
+				<p id="subtitle-skills"> Agile development </p>
+				<p id="text-skills"> Spints, meatings, everything is important to deliver a good product.</p>
+				<p id="subtitle-skills"> Latest technologies </p>
+				<p id="text-skills"> Our team is always on top with updates and improvments regarding the latest standards. </p>
+				<p id="subtitle-skills"> Interation and feedback </p>
+				<p id="text-skills"> Always open to discussion and always continue to improve our collaboration. </p>
+			</section>
+		</div>	
+			<div class="thumbnail-project-home">
+			<div class="thumb-project">
+				<div class="event-txt">
+					<p id="innov-title">What we did</p>
+					<p id="innov-text">Our latest internal projects, products, apps and small services. </p>
+					<p id="innov-text">See more about <a href="hack.html">hackathons  </a> and how we work.</p>
+				</div>
+
+
+			<div class="project">
+				 <div class="thumbnail-project">
+					<a href="#"><img id="img-project" src="http://placehold.it/370x200"></a>
+					<p id="project-title"> Keyword monitor </p>
+					<p id="project-text"> A simple website and app that check how your site's public keywords rank.</p>
+				</div>
+				<div class="thumbnail-project">
+					<a href="#"><img id="img-project" src="http://placehold.it/370x200"></a>
+					<p id="project-title"> hellothere.com </p>
+					<p id="project-text"> A small jQuery script to keep in touch with your clients with chat and Slack integration.</p>
+				</div>
+				<div class="thumbnail-project">
+					<a href="#"><img id="img-project" src="http://placehold.it/370x200"></a>
+					<p id="project-title"> Restaurant menu - iPad app </p>
+					<p id="project-text">An apps for small and medium restaurants and pubs to keep their clients happy.</p>
+				</div>
+				<div class="buttons-group">
+					<div class="project-buttons">
+						<button class="button-project"><a href="projects.html">Our project</a></button>
+						<button class="button-tech-cafe"><a href="tech.html">Tech CAFE</a></button>
+					</div>
+				</div>
+			</div>
+			</div>
 		<div class="work-together">
 			<p id="work-title">Let's work together</p>
 			<p id="work-subtitle">Contact us today to get started on your project</p>
@@ -88,28 +282,30 @@
 		</div>
 
 
-		
-	<footer>
+		<footer id="contacts">
 		<div>
 			<section class="footer-links">
-				<img id="footer-logo" src="http://placehold.it/150x100">
+				<a href="#home"><img id="footer-logo" src="http://placehold.it/150x100"></a>
 			</section>
 			<section class="footer-links">
 				<h3 id="footer-title">ASSIST START</h3>
 				<ul>
-					<li>Home</li>
-					<li>Hackathons</li>
-					<li>innovative talks</li>
-					<li>For entrepreneurs</li>
-					<li>Our projects</li>
+					<li><a href="#home">Home</a>
+					</li>
+					<li><a href="hack.html">Hackathons</a>
+					</li>
+					<li><a href="tech.html">Innovative talks</a>
+					</li>
+					<li><a href="entrepreneurs.html">For entrepreneurs</li>
+					<li><a href="projects.html">Our projects</li>
 				</ul>
 			</section>
 			<section class="footer-links">
 				<h3 id="footer-title">Contact</h3>
 				<ul>
-					<li><a href="https://assist-software.net/">hello@asssist.ro</a> </li>
-					<li>Facebook</li>
-					<li>Instagram</li>
+					<li><a href="https://assist-software.net/">hello@asssist.ro </li></a>
+					<li><a href="https://www.facebook.com/">Facebook</a></li>
+					<li><a href="https://www.instagram.com/?hl=ro">Instagram</a></li>
 				</ul>
 			</section>
 			<section class="footer-links">
@@ -132,6 +328,7 @@
 	</footer>
 	</div>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="menu-script.js"></script>
 </body>
-
 </html>
